@@ -1,5 +1,15 @@
-import java.io.*;
+/*DESCRIPCIÓN DEL PROGRAMA:El programa "AlmacenarVehiculos" tiene la función
+de almacenar la información de varios vehículos en un archivo de texto.
+El programa inicia creando tres objetos de vehículo con información específica,
+como la marca, el modelo y el año.
+Estos objetos de vehículo se almacenan en un array llamado "vehiculos".
+Luego, el programa guarda el contenido del array "vehiculos" en un archivo
+de texto.
+La información de los vehículos se guarda en el archivo especificado,
+que se nombra "vehiculos.txt". Después de almacenar los vehículos en el
+archivo, el programa recupera la información leyendo el archivo.*/
 
+import java.io.*;
 public class AlmacenarVehiculos {
     public static void main(String[] args) {
         // Crear los objetos de vehículo
